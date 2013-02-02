@@ -11,11 +11,11 @@ vmap <leader>s :s/
 map <leader>v  :vsp<CR>
 
 " Moving and resizing windows
-map <leader>w  ^Ww
-map <leader>j  ^Wj
-map <leader>k  ^Wk
-map <leader>h  ^Wh
-map <leader>=  ^W=
+map <leader>l  <C-w>l
+map <leader>j  <C-w>j 
+map <leader>k  <C-w>k
+map <leader>h  <C-w>h
+map <leader>=  <C-w>=
 
 map <leader>f  :CommandTFlush<CR>:CommandT<CR>
 
@@ -26,3 +26,5 @@ vmap <leader>a :call AckVisual()<CR>
 
 nnoremap <C-y> "+y
 vnoremap <C-y> "+y
+
+nmap <silent> ,/ :nohlsearch<CR>
