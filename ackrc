@@ -1,0 +1,10 @@
+--type-set=handlebars=.handlebars
+--type-set=haml=.haml
+--type-set=scss=.scss
+--type-set=js=.js
+--type-set=sass=.sass
+--type-set=py=.py
+
+--ignore-dir=tmp
+--ignore-dir=egg-info
+
