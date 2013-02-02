@@ -1,6 +1,8 @@
 let mapleader = ","
 let maplocalleader = ";"
 
+nnoremap ; :
+
 command W w
 
 set pastetoggle=<F2>
@@ -16,6 +18,9 @@ map <leader>j  <C-w>j
 map <leader>k  <C-w>k
 map <leader>h  <C-w>h
 map <leader>=  <C-w>=
+
+map j gj
+map k gk
 
 map <leader>f  :CommandTFlush<CR>:CommandT<CR>
 
