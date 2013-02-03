@@ -4,7 +4,7 @@ To install locally run:
     * cd vim-config
     * sh install.sh
 
-** WARNING: This installed removes your current ~/.vimrc, ~/.vim, and ~/.ackrc
+** WARNING: This installer removes your current ~/.vimrc, ~/.vim, and ~/.ackrc
 ** WARNING: and replaces them with symlinks to the contents of vim-config.
 ** WARNING: The script is not nice about and makes no effort to backup anything.
 
