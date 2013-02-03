@@ -22,6 +22,10 @@ set number
 set nowrap
 set smarttab
 
+set textwidth=79
+set formatoptions=qrn1
+set colorcolumn=85
+
 set hls
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 
