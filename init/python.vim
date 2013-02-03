@@ -8,3 +8,8 @@ set completeopt=menuone,longest,preview
 
 "Strip trailing whitespace from Python source files
 autocmd BufWritePre *.py :%s/\s\+$//e
+
+"Color column
+au FileType python set colorcolumn=85
+au FileType python set textwidth=79
+
