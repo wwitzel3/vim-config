@@ -42,3 +42,5 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
+inoremap jj <ESC>
+
