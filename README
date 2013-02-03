@@ -1,6 +1,11 @@
-To install locally run: ./install.sh
+To install locally run:
+
+    * git clone git://github.com/wwitzel3/vim-config.git
+    * cd vim-config
+    * sh install.sh
 
 ** WARNING: This installed removes your current ~/.vimrc, ~/.vim, and ~/.ackrc
-** WARNING: It isn't even nice about and makes no effort to make a backup.
+** WARNING: and replaces them with symlinks to the contents of vim-config.
+** WARNING: The script is not nice about and makes no effort to backup anything.
 
 ( Thought it doesn't use -r or -f so it will only delete files or symlinks )
