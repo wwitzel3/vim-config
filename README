@@ -1,0 +1,6 @@
+To install locally run: ./install.sh
+
+** WARNING: This installed removes your current ~/.vimrc, ~/.vim, and ~/.ackrc
+** WARNING: It isn't even nice about and makes no effort to make a backup.
+
+( Thought it doesn't use -r or -f so it will only delete files or symlinks )
