@@ -32,14 +32,13 @@ vmap <leader>a :call AckVisual()<CR>
 nnoremap <C-y> "+y
 vnoremap <C-y> "+y
 
-" Disable cursor keys                                                      
-nnoremap <up> <nop>                                                        
-nnoremap <down> <nop>                                                      
-nnoremap <left> <nop>                                                      
-nnoremap <right> <nop>                                                     
-inoremap <up> <nop>                                                        
-inoremap <down> <nop>                                                      
-inoremap <left> <nop>                                                      
+" Disable cursor keys
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
 inoremap <right> <nop>
 
-nmap <silent> ,/ :nohlsearch<CR>

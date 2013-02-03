@@ -17,6 +17,13 @@ set showmatch
 set splitright
 set splitbelow
 set wildmode=list:longest
+set backspace=indent,eol,start
+set number
+set nowrap
+set smarttab
+
+set hls
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 
 " More detailed status line
 set statusline=[%n]\ %f\ %m\ %y
