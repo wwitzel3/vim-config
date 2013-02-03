@@ -14,7 +14,7 @@ map <leader>v  :vsp<CR>
 
 " Moving and resizing windows
 map <leader>l  <C-w>l
-map <leader>j  <C-w>j 
+map <leader>j  <C-w>j
 map <leader>k  <C-w>k
 map <leader>h  <C-w>h
 map <leader>=  <C-w>=
@@ -43,4 +43,4 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 
 inoremap jj <ESC>
-
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
