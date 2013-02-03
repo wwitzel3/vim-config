@@ -20,8 +20,8 @@ set wildmode=list:longest
 set backspace=indent,eol,start
 set number
 set nowrap
-set smarttab
 
+set nosmarttab
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
@@ -45,3 +45,7 @@ set incsearch                   " Incremental search
 set history=1024                " History size
 set smartcase                   " Smart case-sensitivity when searching (overrides ignorecase)
 
+syntax on
+filetype on
+filetype plugin on
+filetype plugin indent on
