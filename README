@@ -1,3 +1,9 @@
+Compile vim from source:
+
+   * ./configure --enable-pythoninterp --enable-rubyinterp --enable-multibyte --prefix=/usr/local
+   * make
+   * sudo make install
+   
 To install locally run:
 
     * git clone git://github.com/wwitzel3/vim-config.git
