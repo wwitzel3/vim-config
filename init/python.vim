@@ -13,3 +13,4 @@ autocmd BufWritePre *.py :%s/\s\+$//e
 au FileType python set colorcolumn=85
 au FileType python set textwidth=79
 
+au BufNewFile,BufRead *.mako set syntax=mako
