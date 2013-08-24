@@ -14,4 +14,4 @@ To install locally run:
 ** WARNING: and replaces them with symlinks to the contents of vim-config.
 ** WARNING: The script is not nice about and makes no effort to backup anything.
 
-( Thought it doesn't use -r or -f so it will only delete files or symlinks )
+( Though it doesn't use -r or -f so it will only delete files or symlinks )

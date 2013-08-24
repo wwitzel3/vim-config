@@ -4,6 +4,7 @@
 --type-set=js=.js
 --type-set=sass=.sass
 --type-set=py=.py
+--type-set=mako=.mako
 
 --ignore-dir=tmp
 --ignore-dir=egg-info
