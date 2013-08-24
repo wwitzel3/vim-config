@@ -13,11 +13,11 @@ vmap <leader>s :s/
 map <leader>v  :vsp<CR>
 
 " Moving and resizing windows
-map <leader>l  <C-w>l
-map <leader>j  <C-w>j
-map <leader>k  <C-w>k
-map <leader>h  <C-w>h
-map <leader>=  <C-w>=
+" map <leader>l  <C-w>l
+" map <leader>j  <C-w>j
+" map <leader>k  <C-w>k
+" map <leader>h  <C-w>h
+" map <leader>=  <C-w>=
 
 map j gj
 map k gk
