@@ -10,7 +10,7 @@ set completeopt=menuone,longest,preview
 autocmd BufWritePre *.py :%s/\s\+$//e
 
 "Color column
-au FileType python set colorcolumn=85
-au FileType python set textwidth=79
+au FileType python set colorcolumn=121
+au FileType python set textwidth=120
 
 au BufNewFile,BufRead *.mako set syntax=mako
