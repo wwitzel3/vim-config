@@ -21,8 +21,8 @@ yss will wrap an entire line in your surround, example Test becomes ( Test ) wit
 Note using the left side of a wrap will result in a single space padding in the wrap.
 Word becomes ( Word ) with yss( and (Word) with yss)
 
-Command-T
-=========
+Ctrl-P
+======
 The following mappings are active when the prompt has focus:
 
     <BS>        delete the character to the left of the cursor
