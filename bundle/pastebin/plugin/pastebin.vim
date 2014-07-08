@@ -99,12 +99,6 @@ def PBSendPOST(start=None, end=None):
     data[config['keys']['format']] = get_format_from_filetype(service)
     if config['keys'].has_key('user'):
         data[config['keys']['user']] = get_user()
-    if subdomain is not None and config['keys'].has_key('subdomain'):
-        data[config['keys']['subdomain']] = subdomain
-    if email is not None and config['keys'].has_key('email'):
-        data[config['keys']['email']] = email
-    if private and config['keys'].has_key('private'):
-        data[config['keys']['private']] = 1 if private else 0
 
     conn = httplib.HTTPConnection(config['api'])
     conn.request("POST", "", urllib.urlencode(data), {'Content-type': 'application/x-www-form-urlencoded'})
