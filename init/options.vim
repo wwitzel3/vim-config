@@ -1,4 +1,4 @@
-set list
+" set list
 set nobackup
 set noswapfile
 set history=1000         " remember more commands and search history
