@@ -14,3 +14,5 @@ au FileType python set colorcolumn=121
 au FileType python set textwidth=120
 
 au BufNewFile,BufRead *.mako set syntax=mako
+
+let g:PyFlakeOnWrite = 1
