@@ -22,7 +22,7 @@ map <leader>v  :vsp<CR>
 map j gj
 map k gk
 
-map <leader>f  :CommandTFlush<CR>:CommandT<CR>
+map <leader>f  :Files <CR>
 
 " AckGrep current word
 map <leader>a :call AckGrep()<CR>

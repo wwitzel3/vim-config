@@ -19,6 +19,7 @@ set splitbelow
 set wildmode=list:longest
 set backspace=indent,eol,start
 set number
+set relativenumber
 set nowrap
 
 set nosmarttab

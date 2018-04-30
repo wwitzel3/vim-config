@@ -2,7 +2,7 @@
 let g:pep8_map='<leader>8'
 
 "Tab Completion
-au FileType python set omnifunc=pythoncomplete#Complete
+"au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
 
