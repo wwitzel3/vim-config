@@ -25,6 +25,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'edkolev/tmuxline.vim'
     Plug 'davidhalter/jedi-vim', { 'do': 'git submodule update --init' }
     Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+    Plug 'SirVer/ultisnips'
 call plug#end()
 
 set nocompatible                " Don't maintain compatibility with vi
