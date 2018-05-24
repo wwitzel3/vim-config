@@ -48,3 +48,6 @@ syntax on
 filetype on
 filetype plugin on
 filetype plugin indent on
+
+let g:airline#extensions#tmuxline#enabled = 1
+let airline#extensions#tmuxline#snapshot_file = "~/.tmux-status.conf"
