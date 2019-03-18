@@ -1,6 +1,6 @@
 ZSH_TMUX_AUTOSTART=true
 
-export PATH=$HOME/bin:$HOME/go/bin:/usr/local/bin:/usr/local/go/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/bin:$HOME/go/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -103,14 +103,10 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias k="kubectl"
 alias ack="rg"
+alias hqdev="kubectl --kubeconfig=/home/wwitzel3/.kube/hep-dev"
+alias hqprod="kubectl --kubeconfig=/home/wwitzel3/.kube/hep-prod"
 
 eval `dircolors ~/src/dircolors-solarized/dircolors.256dark`
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '~/google-cloud-sdk/path.zsh.inc' ]; then source '~/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '~/google-cloud-sdk/completion.zsh.inc' ]; then source '~/google-cloud-sdk/completion.zsh.inc'; fi
 
 bindkey -v
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -122,3 +118,9 @@ export NVM_DIR="$HOME/.nvm"
 zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
 autoload -Uz compinit
 compinit
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/wwitzel3/.local/lib/google-cloud-sdk/path.zsh.inc' ]; then source '/home/wwitzel3/.local/lib/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/wwitzel3/.local/lib/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/wwitzel3/.local/lib/google-cloud-sdk/completion.zsh.inc'; fi
